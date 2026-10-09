@@ -1,0 +1,12 @@
+[package]
+name = "prime-factor"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+strip = true
+
+[dependencies]
+argh = "0.1.19"
+bytemuck = "1.25.2"
+memmap2 = "0.9.11"
