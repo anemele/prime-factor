@@ -14,4 +14,7 @@ seq 10 | pf
 
 # filter prime
 seq 10 | pf -o filter
+
+# read from file
+pf my_int_file
 ```
